@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{meeting.title}}</title>
+</head>
+<body >
+    <div style="text-align: center;">
+        <h1>Meeting {{meeting.title}}</h1>
+        <br> <br> <br> <br>
+        this meeting has been scheduled on <em>{{meeting.date}}</em> at <em>{{meeting.time}}</em>
+        in <em>{{meeting.room}}</em>
+    </div>
+    Go To: <a href="{% url 'home' %}">Home</a>
+
+</body>
+</html>
